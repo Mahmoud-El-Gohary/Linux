@@ -1,0 +1,53 @@
+Basic commands in Linux  - navigation:
+
+pwd    --> Print the Present working directory.
+whoami --> Tells you the current user.
+cd     --> changing directory.
+cd ..  --> To move up one level.
+cd /   --> To get into the root directory.
+ls     --> List files and subdirectories.
+ls -l  --> get more info like files permissions, owner, the number of links ,its group , size and when they were last modified.
+ls -la --> To show the hidden files in he directory.
+
+							*__________________________________________________________________________________________________________________________*
+
+Basic commands in Linux - getting help:
+
+man --> to access the tool or the command manual, press (q) to quit.
+# You can use the switches (-h, --help, -?)
+## You can use any of the three but there is no guarantee the application will support it ##
+
+							*__________________________________________________________________________________________________________________________*
+
+Basic commands in Linux  - modifying files and directories:
+
+touch --> This command was developed for creating files.
+cp    --> You can copy files with cp followed by the path.
+mv    --> You can weather rename the file, directories or move them with mv.
+rm    --> You can simply remove files using rm.
+rmdir --> You can remove empty directories with this command.
+rm -r --> This command is for removing a directories that are not empty or any this else so be careful while using it.
+
+							*__________________________________________________________________________________________________________________________*
+	
+Basic commands in Linux  - finding stuff:
+
+locate  --> This command will go through your entire file-system and locate every occurrence of that word.
+whereis --> This will help you if you are looking for binary file, it will return the location of the binary, source and the man page if they are available.
+which   --> This command is more specific it will return the path of the binary in the environment variables.
+find    --> it is the most powerful and flexible searching command the structure is (find (directory) (option) (expression) --> to search for apache2 --> find -type f -name apache2 
+
+# Binaries : this term refers to files, applications that can be executed .
+
+							*__________________________________________________________________________________________________________________________*
+
+Basic commands in Linux  -text manipulation:
+
+cat  --> This command followed by filename will display the file content.
+head --> This command displays the first 10 lines of a file.
+tail --> It’s used to view the last lines of a file.
+nl   --> To display a file with line numbers.
+grep --> It lets you filter the content of a file for display.
+sed  --> This command lets you search for occurrences of a word or a text pattern and ten perform some action on it. --> sed s/(the word to find)/(the word to replace with)/g
+more --> It displays a page of a file at a time and lets you page down through it using enter key
+less --> This command is so similar to more but you cannot only scroll through a file at your leisure, but you can also filter it for terms.
