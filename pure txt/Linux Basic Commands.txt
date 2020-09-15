@@ -9,7 +9,7 @@ ls     --> List files and subdirectories.
 ls -l  --> get more info like files permissions, owner, the number of links ,its group , size and when they were last modified.
 ls -la --> To show the hidden files in he directory.
 
-							*__________________________________________________________________________________________________________________________*
+					*__________________________________________________________________________________________________________________________*
 
 Basic commands in Linux - getting help:
 
@@ -17,7 +17,7 @@ man --> to access the tool or the command manual, press (q) to quit.
 # You can use the switches (-h, --help, -?)
 ## You can use any of the three but there is no guarantee the application will support it ##
 
-							*__________________________________________________________________________________________________________________________*
+					*__________________________________________________________________________________________________________________________*
 
 Basic commands in Linux  - modifying files and directories:
 
@@ -28,7 +28,7 @@ rm    --> You can simply remove files using rm.
 rmdir --> You can remove empty directories with this command.
 rm -r --> This command is for removing a directories that are not empty or any this else so be careful while using it.
 
-							*__________________________________________________________________________________________________________________________*
+					*__________________________________________________________________________________________________________________________*
 	
 Basic commands in Linux  - finding stuff:
 
